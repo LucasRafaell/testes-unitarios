@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrdemTest" project="TestesUnitarios" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.OrdemTest" time="0.0">
+    <testcase name="verifica" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.0"/>
+    <testcase name="inicia" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.0"/>
+  </testsuite>
+</testrun>
