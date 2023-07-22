@@ -35,6 +35,7 @@ public class LocacaoServiceTest {
 	
 	@Before
 	public void setup() {
+		System.out.println("Before");
 		service = new LocacaoService();
 	}
 	

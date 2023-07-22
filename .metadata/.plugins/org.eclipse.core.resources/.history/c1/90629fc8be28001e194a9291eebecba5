@@ -35,6 +35,7 @@ public class LocacaoServiceTest {
 	
 	@Before
 	public void setup() {
+		System.out.println("Before");
 		service = new LocacaoService();
 	}
 	
@@ -43,6 +44,8 @@ public class LocacaoServiceTest {
 		// cenario		
 		Usuario usuario = new Usuario("Usuario 1");
 		Filme filme = new Filme("filme 1", 2, 5.0);
+
+		System.out.println("Teste!");
 		
 		// acao		 		
 		 Locacao locacao = service.alugarFilme(usuario, filme);
