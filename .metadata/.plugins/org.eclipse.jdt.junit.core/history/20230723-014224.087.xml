@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LocacaoServiceTest" project="TestesUnitarios" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.033">
+    <testcase name="naoDeveAlugarFilmeSemFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.003"/>
+    <testcase name="devePagar75PcNoFilme3" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.028"/>
+    <testcase name="devePagar50PcNoFilme4" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
+    <testcase name="deveLancarExcecaoAoAlugarFilmeSemEstoque" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
+    <testcase name="devePagar0PcNoFilme6" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
+    <testcase name="naoDeveAlugarFilmeSemUsuario" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
+    <testcase name="devePagar25PcNoFilme5" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
+    <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+  </testsuite>
+</testrun>
