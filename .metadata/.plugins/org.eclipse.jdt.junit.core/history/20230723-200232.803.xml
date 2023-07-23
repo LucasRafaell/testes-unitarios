@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculoValorLocacaoTest" project="TestesUnitarios" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.027">
+    <testsuite name="[0]" time="0.027">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[0]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.027"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[1]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

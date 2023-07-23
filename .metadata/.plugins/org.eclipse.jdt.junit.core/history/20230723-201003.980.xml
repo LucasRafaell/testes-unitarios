@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculoValorLocacaoTest" project="TestesUnitarios" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.027">
+    <testsuite name="[2 Filmes: Sem Desconto]" time="0.026">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.026"/>
+    </testsuite>
+    <testsuite name="[3 Filmes: 25%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[4 Filmes: 50%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[5 Filmes: 75%]" time="0.001">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[6 Filmes: 100%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

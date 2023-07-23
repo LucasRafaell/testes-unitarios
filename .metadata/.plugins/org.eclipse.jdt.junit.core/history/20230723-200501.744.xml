@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculoValorLocacaoTest" project="TestesUnitarios" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.017">
+    <testsuite name="[Teste 0 = 11 - {2}]" time="0.016">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[Teste 0 = 11 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.016"/>
+      <testcase name="print[Teste 0 = 11 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[Teste 1 = 13 - {2}]" time="0.001">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[Teste 1 = 13 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+      <testcase name="print[Teste 1 = 13 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[Teste 2 = 14 - {2}]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[Teste 2 = 14 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+      <testcase name="print[Teste 2 = 14 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[Teste 3 = 14 - {2}]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[Teste 3 = 14 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+      <testcase name="print[Teste 3 = 14 - {2}]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>
