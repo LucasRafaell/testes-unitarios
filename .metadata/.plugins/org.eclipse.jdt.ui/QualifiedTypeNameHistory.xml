@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.FilmeSemEstoqueException"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.LocadoraException"/>
     <fullyQualifiedTypeName name="org.junit.After"/>
-    <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
     <fullyQualifiedTypeName name="org.junit.AfterClass"/>
     <fullyQualifiedTypeName name="org.junit.FixMethodOrder"/>
     <fullyQualifiedTypeName name="org.junit.runners.MethodSorters"/>
@@ -19,14 +18,24 @@
     <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.NaoPodeDividirPorZeroException"/>
     <fullyQualifiedTypeName name="org.junit.Before"/>
     <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
     <fullyQualifiedTypeName name="org.junit.Assume"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
     <fullyQualifiedTypeName name="org.junit.runners.Parameterized"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameter"/>
     <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
+    <fullyQualifiedTypeName name="org.hamcrest.TypeSafeMatcher"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.matchers.DiaSemanaMatcher"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.matchers.MatchersProprios"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Suite"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.LocacaoServiceTest"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.CalculadoraTest"/>
+    <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 </qualifiedTypeNameHistroy>
