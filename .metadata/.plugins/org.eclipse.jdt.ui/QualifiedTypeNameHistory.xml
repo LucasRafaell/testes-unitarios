@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.LocacaoService"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Filme"/>
-    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Usuario"/>
     <fullyQualifiedTypeName name="org.hamcrest.CoreMatchers"/>
     <fullyQualifiedTypeName name="org.junit.rules.ErrorCollector"/>
@@ -15,12 +14,19 @@
     <fullyQualifiedTypeName name="org.junit.FixMethodOrder"/>
     <fullyQualifiedTypeName name="org.junit.runners.MethodSorters"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.NaoPodeDividirPorZeroException"/>
     <fullyQualifiedTypeName name="org.junit.Before"/>
     <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
+    <fullyQualifiedTypeName name="org.junit.Assume"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Parameterized"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameter"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
 </qualifiedTypeNameHistroy>

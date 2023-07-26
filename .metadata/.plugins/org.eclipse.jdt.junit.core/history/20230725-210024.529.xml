@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LocacaoServiceTest" project="TestesUnitarios" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.036">
+    <testcase name="naoDeveAlugarFilmeSemFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.002"/>
+    <testcase name="deveLancarExcecaoAoAlugarFilmeSemEstoque" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+    <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.032">
+      <skipped>org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: is &lt;true&gt;&#13;
+	at org.junit.Assume.assumeThat(Assume.java:95)&#13;
+	at org.junit.Assume.assumeTrue(Assume.java:41)&#13;
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.deveDevolverNaSegundaAoAlugarNoSabado(LocacaoServiceTest.java:101)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)&#13;
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#13;
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</skipped>
+    </testcase>
+    <testcase name="naoDeveAlugarFilmeSemUsuario" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
+    <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+  </testsuite>
+</testrun>
