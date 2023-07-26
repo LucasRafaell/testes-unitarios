@@ -1,35 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="java" project="TestesUnitarios" tests="18" started="18" failures="1" errors="0" ignored="0">
-  <testsuite name="br.ce.wcaquino.servicos.AssertTest" time="0.0">
-    <testcase name="teste" classname="br.ce.wcaquino.servicos.AssertTest" time="0.0"/>
+<?xml version="1.0" encoding="UTF-8"?><testrun name="java" project="TestesUnitarios" tests="18" started="18" failures="0" errors="1" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001">
+    <testcase name="devSomarDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001"/>
+    <testcase name="deveLancarExcecaoAoDividirPorZero" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
+    <testcase name="deveSubtrairDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
+    <testcase name="deveDividirDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
   </testsuite>
-  <testsuite name="br.ce.wcaquino.servicos.OrdemTest" time="0.0">
-    <testcase name="inicia" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.0"/>
-    <testcase name="verifica" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.0"/>
-  </testsuite>
-  <testsuite name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.029">
-    <testsuite name="[2 Filmes: Sem Desconto]" time="0.028">
-      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.028"/>
-    </testsuite>
-    <testsuite name="[3 Filmes: 25%]" time="0.0">
-      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
-    </testsuite>
-    <testsuite name="[4 Filmes: 50%]" time="0.0">
-      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
-    </testsuite>
-    <testsuite name="[5 Filmes: 75%]" time="0.0">
-      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
-    </testsuite>
-    <testsuite name="[6 Filmes: 100%]" time="0.0">
-      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
-    </testsuite>
-    <testsuite name="[7 Filmes: Sem Desconto]" time="0.0">
-      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
-    </testsuite>
-  </testsuite>
-  <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.011">
-    <testcase name="naoDeveAlugarFilmeSemFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.004"/>
+  <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.028">
+    <testcase name="naoDeveAlugarFilmeSemFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
     <testcase name="deveLancarExcecaoAoAlugarFilmeSemEstoque" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
-    <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.004">
+    <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.027">
       <skipped>org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: is &lt;true&gt;&#13;
 	at org.junit.Assume.assumeThat(Assume.java:95)&#13;
 	at org.junit.Assume.assumeTrue(Assume.java:41)&#13;
@@ -65,17 +44,10 @@
 </skipped>
     </testcase>
     <testcase name="naoDeveAlugarFilmeSemUsuario" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.0"/>
-    <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.003">
-      <failure>java.lang.AssertionError: 
-Expected: is &lt;5.0&gt;
-     but: was &lt;4.0&gt;&#13;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)&#13;
-	at org.junit.Assert.assertThat(Assert.java:956)&#13;
-	at org.junit.rules.ErrorCollector$1.call(ErrorCollector.java:65)&#13;
-	at org.junit.rules.ErrorCollector.checkSucceeds(ErrorCollector.java:78)&#13;
-	at org.junit.rules.ErrorCollector.checkThat(ErrorCollector.java:63)&#13;
-	at org.junit.rules.ErrorCollector.checkThat(ErrorCollector.java:54)&#13;
-	at br.ce.wcaquino.servicos.LocacaoServiceTest.deveAlugarFilme(LocacaoServiceTest.java:61)&#13;
+    <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001">
+      <error>br.ce.wcaquino.exceptions.FilmeSemEstoqueException&#13;
+	at br.ce.wcaquino.servicos.LocacaoService.alugarFilme(LocacaoService.java:30)&#13;
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.deveAlugarFilme(LocacaoServiceTest.java:58)&#13;
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
@@ -104,13 +76,34 @@ Expected: is &lt;5.0&gt;
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
 &#13;
-</failure>
+</error>
     </testcase>
   </testsuite>
-  <testsuite name="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001">
-    <testcase name="devSomarDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
-    <testcase name="deveLancarExcecaoAoDividirPorZero" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
-    <testcase name="deveSubtrairDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
-    <testcase name="deveDividirDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
+  <testsuite name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.002">
+    <testsuite name="[2 Filmes: Sem Desconto]" time="0.001">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[3 Filmes: 25%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[4 Filmes: 50%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[5 Filmes: 75%]" time="0.001">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[6 Filmes: 100%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[7 Filmes: Sem Desconto]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.OrdemTest" time="0.001">
+    <testcase name="inicia" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.0"/>
+    <testcase name="verifica" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.AssertTest" time="0.0">
+    <testcase name="teste" classname="br.ce.wcaquino.servicos.AssertTest" time="0.0"/>
   </testsuite>
 </testrun>
