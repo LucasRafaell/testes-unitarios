@@ -1,6 +1,7 @@
 package br.ce.wcaquino.servicos;
 
 import static br.ce.wcaquino.builders.FilmeBuilder.umFilme;
+import static br.ce.wcaquino.builders.FilmeBuilder.umFilmeSemEstoque;
 import static br.ce.wcaquino.builders.UsuarioBuilder.umUsuario;
 import static br.ce.wcaquino.matchers.MatchersProprios.caiNumaSegunda;
 import static br.ce.wcaquino.matchers.MatchersProprios.ehHoje;
@@ -55,7 +56,7 @@ public class LocacaoServiceTest {
 		
 		// cenario		
 		Usuario usuario = umUsuario().agora();
-		List<Filme> filmes = Arrays.asList(umFilme().comValor(5.0).agora());
+		List<Filme> filmes = Arrays.asList(umFilmeSemEstoque().agora());
 		
 		// acao		 		
 		 Locacao locacao = service.alugarFilme(usuario, filmes);
