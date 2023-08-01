@@ -41,4 +41,8 @@
     <fullyQualifiedTypeName name="br.ce.wcaquino.builders.UsuarioBuilder"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.builders.FilmeBuilder"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Locacao"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.daos.LocacaoDAOFake"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.daos.LocacaoDAO"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
 </qualifiedTypeNameHistroy>
