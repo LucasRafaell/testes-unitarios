@@ -43,8 +43,9 @@
     <fullyQualifiedTypeName name="br.ce.wcaquino.daos.LocacaoDAO"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.LocadoraException"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.SPCService"/>
-    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.builders.LocacaoBuilder"/>
-    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Usuario"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
 </qualifiedTypeNameHistroy>

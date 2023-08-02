@@ -60,7 +60,14 @@ public class LocacaoServiceTest {
 	
 	@Before
 	public void setup() {
-		MockitoAnnotations.initMocks(this);		
+		MockitoAnnotations.initMocks(this);
+		service = new LocacaoService();
+		dao = Mockito.mock(LocacaoDAO.class);
+		service.setLocacaoDAO(dao);
+		spc = Mockito.mock(SPCService.class);
+		service.setSPCService(spc);
+		email = Mockito.mock(EmailService.class);
+		service.setEmailService(email);
 	}
 	
 	@Test
