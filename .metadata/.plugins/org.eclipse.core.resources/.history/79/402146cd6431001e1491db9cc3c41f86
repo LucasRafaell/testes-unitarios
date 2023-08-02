@@ -132,7 +132,7 @@ public class LocacaoServiceTest {
 	}
 	
 	@Test
-	public void naoDeveAlugarFilmeParaNegativadoSPC() throws Exception {
+	public void naoDeveAlugarFilmeParaNegativadoSPC() throws FilmeSemEstoqueException {
 		//cenario
 		Usuario usuario = umUsuario().agora();
 		List<Filme> filmes = Arrays.asList(umFilme().agora());
@@ -176,15 +176,15 @@ public class LocacaoServiceTest {
 	}
 	
 	@Test
-	public void deveTratarErronoSPC() throws Exception {
+	public void deveTratarErronoSPC() throws FilmeSemEstoqueException, LocadoraException {
 		//cenario
 		Usuario usuario = umUsuario().agora();
 		List<Filme> filmes = Arrays.asList(umFilme().agora());
 		
-		when(spc.possuiNegativacao(usuario)).thenThrow(new Exception("Falha catastrófica"));
+		when(spc.possuiNegativacao(usuario)).thenThrow(new RuntimeException("Falha catastrófica"));
 		
 		//verificacao
-		exception.expect(LocadoraException.class);
+		exception.expect(RuntimeException.class);
 		exception.expectMessage("Problemas com SPC, tente novamente");
 		
 		//acao

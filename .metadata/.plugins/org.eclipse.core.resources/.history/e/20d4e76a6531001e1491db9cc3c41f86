@@ -132,7 +132,7 @@ public class LocacaoServiceTest {
 	}
 	
 	@Test
-	public void naoDeveAlugarFilmeParaNegativadoSPC() throws Exception {
+	public void naoDeveAlugarFilmeParaNegativadoSPC() throws FilmeSemEstoqueException {
 		//cenario
 		Usuario usuario = umUsuario().agora();
 		List<Filme> filmes = Arrays.asList(umFilme().agora());
@@ -176,7 +176,7 @@ public class LocacaoServiceTest {
 	}
 	
 	@Test
-	public void deveTratarErronoSPC() throws Exception {
+	public void deveTratarErronoSPC() throws FilmeSemEstoqueException, LocadoraException {
 		//cenario
 		Usuario usuario = umUsuario().agora();
 		List<Filme> filmes = Arrays.asList(umFilme().agora());
