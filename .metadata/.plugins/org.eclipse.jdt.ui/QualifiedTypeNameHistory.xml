@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="org.junit.rules.ErrorCollector"/>
     <fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.FilmeSemEstoqueException"/>
-    <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.LocadoraException"/>
     <fullyQualifiedTypeName name="org.junit.After"/>
     <fullyQualifiedTypeName name="org.junit.AfterClass"/>
     <fullyQualifiedTypeName name="org.junit.FixMethodOrder"/>
@@ -35,14 +34,17 @@
     <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.LocacaoServiceTest"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.CalculadoraTest"/>
     <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
-    <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Usuario"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Filme"/>
     <fullyQualifiedTypeName name="buildermaster.BuilderMaster"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.builders.UsuarioBuilder"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.builders.FilmeBuilder"/>
-    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Locacao"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.daos.LocacaoDAOFake"/>
     <fullyQualifiedTypeName name="br.ce.wcaquino.daos.LocacaoDAO"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.exceptions.LocadoraException"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.servicos.SPCService"/>
     <fullyQualifiedTypeName name="org.mockito.Mockito"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.builders.LocacaoBuilder"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.utils.DataUtils"/>
+    <fullyQualifiedTypeName name="br.ce.wcaquino.entidades.Usuario"/>
 </qualifiedTypeNameHistroy>
