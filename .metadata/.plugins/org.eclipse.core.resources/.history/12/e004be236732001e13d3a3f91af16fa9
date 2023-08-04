@@ -1,0 +1,28 @@
+package br.ce.wcaquino.servicos;
+
+import org.junit.Assert;
+import org.junit.Test;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.Spy;
+
+public class CalculadoraMockTest {
+
+	@Mock
+	private Calculadora calMock;
+	
+	@Spy
+	private Calculadora calSpy;
+	
+	@Test
+	public void teste() {
+		Calculadora calc = Mockito.mock(Calculadora.class);
+		
+		ArgumentCaptor<Integer> argCapt = ArgumentCaptor.forClass(Integer.class);
+		Mockito.when(calc.somar(argCapt.capture(), argCapt.capture())).thenReturn(5);
+				
+		Assert.assertEquals(5, calc.somar(1, 100000));
+		System.out.println(argCapt.getAllValues());
+	}
+}

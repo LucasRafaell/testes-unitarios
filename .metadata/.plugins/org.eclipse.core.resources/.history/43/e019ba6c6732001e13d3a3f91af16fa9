@@ -12,13 +12,10 @@ import org.mockito.Spy;
 public class CalculadoraMockTest {
 
 	@Mock
-	private Calculadora calcMock;
+	private Calculadora calMock;
 	
 	@Spy
-	private Calculadora calcSpy;
-	
-	@Mock
-	private EmailService email;
+	private Calculadora calSpy;
 	
 	@Before
 	public void setup() {
@@ -27,18 +24,8 @@ public class CalculadoraMockTest {
 	
 	@Test
 	public void devoMostrarDiferencaEntreMockSpy() {
-		Mockito.when(calcMock.somar(1, 2)).thenReturn(5);
-//		Mockito.when(calcSpy.somar(1, 2)).thenReturn(5);
-		Mockito.doReturn(5).when(calcSpy).somar(1, 2);
-		Mockito.doNothing().when(calcSpy).imprime();
 		
-		System.out.println("Mock: " + calcMock.somar(1, 2));
-		System.out.println("Spy: " + calcSpy.somar(1, 2));
-		
-		System.out.println("Mock");
-		calcMock.imprime();
-		System.out.println("Spay");
-		calcSpy.imprime();
+		System.out.println(calMock.somar(1, 2));
 	}
 	
 	@Test

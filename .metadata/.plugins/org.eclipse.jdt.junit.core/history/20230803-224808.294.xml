@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculadoraMockTest" project="TestesUnitarios" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.392">
+    <testcase name="teste" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.39"/>
+    <testcase name="devoMostrarDiferencaEntreMockSpy" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.002"/>
+  </testsuite>
+</testrun>
