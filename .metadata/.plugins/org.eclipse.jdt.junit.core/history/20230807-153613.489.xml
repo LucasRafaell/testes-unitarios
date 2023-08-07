@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LocacaoServiceTest" project="TestesUnitarios" tests="9" started="9" failures="0" errors="1" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.658">
+    <testcase name="naoDeveAlugarFilmeSemFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.575"/>
+    <testcase name="naoDeveAlugarFilmeSemUsuario" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.006"/>
+    <testcase name="deveLancarExcecaoAoAlugarFilmeSemEstoque" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.003"/>
+    <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.042"/>
+    <testcase name="deveEnviarEmailParaLocacoesAtrasadas" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.014"/>
+    <testcase name="naoDeveAlugarFilmeParaNegativadoSPC" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+    <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.01">
+      <error>org.junit.internal.runners.model.MultipleFailureException: There were 2 errors:
+  java.lang.AssertionError(
+Expected: 07/08/2023
+     but: was &lt;Fri Apr 28 15:36:14 BRT 2017&gt;)
+  java.lang.AssertionError(
+Expected: 08/08/2023
+     but: was &lt;Sat Apr 29 15:36:14 BRT 2017&gt;)&#13;
+	at org.junit.runners.model.MultipleFailureException.assertEmpty(MultipleFailureException.java:67)&#13;
+	at org.junit.rules.ErrorCollector.verify(ErrorCollector.java:39)&#13;
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:36)&#13;
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#13;
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107)&#13;
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)&#13;
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298)&#13;
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)&#13;
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)&#13;
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218)&#13;
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160)&#13;
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134)&#13;
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)&#13;
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)&#13;
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136)&#13;
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117)&#13;
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57)&#13;
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="deveProrrogarUmaLocacao" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.004"/>
+    <testcase name="deveTratarErronoSPC" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.002"/>
+  </testsuite>
+</testrun>
