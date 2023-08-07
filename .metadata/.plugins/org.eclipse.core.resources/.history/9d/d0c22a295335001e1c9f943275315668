@@ -71,7 +71,7 @@ public class LocacaoService {
 		locacao.setValor(valorTotal);		
 
 		//Entrega no dia seguinte
-		Date dataEntrega = Calendar.getInstance().getTime();
+		Date dataEntrega = new Date();
 		dataEntrega = adicionarDias(dataEntrega, 1);
 		if(DataUtils.verificarDiaSemana(dataEntrega, Calendar.SUNDAY)) {
 			dataEntrega = adicionarDias(dataEntrega, 1);

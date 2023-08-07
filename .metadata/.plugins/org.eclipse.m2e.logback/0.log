@@ -2303,3 +2303,43 @@ Caused by: java.lang.Exception: File not found: C:\Users\Lucas\Desktop\TestesUni
 2023-08-07 15:43:18,832 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
 2023-08-07 15:43:18,833 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-08-07 15:43:18,833 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:44:33,684 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:44:33,685 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:44:33,687 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:44:33,687 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:49:00,354 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:49:00,354 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:49:00,355 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:49:00,356 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:49:38,551 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:49:38,552 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:49:38,553 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:49:38,553 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:53:50,388 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:53:50,389 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:53:50,391 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:53:50,391 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:53:57,905 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:53:57,906 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:53:57,907 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:53:57,907 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:57:04,457 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:57:04,458 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:57:04,459 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:57:04,460 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:57:46,506 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:57:46,507 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:57:46,508 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:57:46,508 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:57:51,894 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:57:51,895 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:57:51,896 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:57:51,897 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 15:59:49,790 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:59:49,791 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 15:59:49,793 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 15:59:49,794 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
+2023-08-07 16:01:53,478 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 16:01:53,479 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\main\resources
+2023-08-07 16:01:53,480 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-07 16:01:53,480 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\temp\testes-unitarios\TestesUnitarios+-+inicio\TestesUnitarios\src\test\resources
