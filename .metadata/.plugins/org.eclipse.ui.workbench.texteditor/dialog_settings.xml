@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="FilmeBuilder.umFilme().agora()"/>
+		<item key="selection" value="new Date()"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Calendar.getInstance().getTime()"/>
 			<item value="new Filme(&quot;Filme 1&quot;, 2, 4.0)"/>
 		</list>
 		<list key="replacehistory">
+			<item value="new Date()"/>
 			<item value="FilmeBuilder.umFilme().agora()"/>
 		</list>
 	</section>

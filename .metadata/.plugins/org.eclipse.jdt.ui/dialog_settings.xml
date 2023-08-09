@@ -125,6 +125,6 @@
 	<section name="ExtractMethodWizard">
 		<item key="ThrowRuntimeExceptions" value="false"/>
 		<item key="GenerateJavadoc" value="false"/>
-		<item key="AccessModifier" value="2"/>
+		<item key="AccessModifier" value="4"/>
 	</section>
 </section>

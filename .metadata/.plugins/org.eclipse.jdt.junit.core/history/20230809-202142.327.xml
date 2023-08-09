@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="java" project="TestesUnitarios" tests="30" started="30" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest_PowerMock" time="0.685">
+    <testcase name="deveAlugarFilme_SemCalcularValor" classname="br.ce.wcaquino.servicos.LocacaoServiceTest_PowerMock" time="0.658"/>
+    <testcase name="deveCalcularValorLocacao" classname="br.ce.wcaquino.servicos.LocacaoServiceTest_PowerMock" time="0.001"/>
+    <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="br.ce.wcaquino.servicos.LocacaoServiceTest_PowerMock" time="0.022"/>
+    <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest_PowerMock" time="0.003"/>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.AssertTest" time="0.001">
+    <testcase name="teste" classname="br.ce.wcaquino.servicos.AssertTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.OrdemTest" time="0.0">
+    <testcase name="inicia" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.0"/>
+    <testcase name="verifica" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.063">
+    <testsuite name="[2 Filmes: Sem Desconto]" time="0.061">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.061"/>
+    </testsuite>
+    <testsuite name="[3 Filmes: 25%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[4 Filmes: 50%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[5 Filmes: 75%]" time="0.001">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[6 Filmes: 100%]" time="0.0">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[7 Filmes: Sem Desconto]" time="0.001">
+      <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.027">
+    <testcase name="naoDeveAlugarFilmeSemFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.025"/>
+    <testcase name="deveLancarExcecaoAoAlugarFilmeSemEstoque" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.022"/>
+    <testcase name="deveProrrogarUmaLocacao" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.025"/>
+    <testcase name="deveTratarErronoSPC" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.025"/>
+    <testcase name="deveEnviarEmailParaLocacoesAtrasadas" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.026"/>
+    <testcase name="naoDeveAlugarFilmeParaNegativadoSPC" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.002"/>
+    <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+    <testcase name="naoDeveAlugarFilmeSemUsuario" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+    <testcase name="deveCalcularValorLocacao" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+    <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.002"/>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.015">
+    <testcase name="teste" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.014"/>
+    <testcase name="devoMostrarDiferencaEntreMockSpy" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001">
+    <testcase name="devSomarDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001"/>
+    <testcase name="deveDividir" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001"/>
+    <testcase name="deveLancarExcecaoAoDividirPorZero" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001"/>
+    <testcase name="deveSubtrairDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.0"/>
+    <testcase name="deveDividirDoisValores" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001"/>
+  </testsuite>
+</testrun>
