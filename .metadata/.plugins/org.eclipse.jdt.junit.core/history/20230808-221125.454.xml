@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SuitesExecucao" project="TestesUnitarios" tests="16" started="16" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.suites.SuitesExecucao" time="0.63">
+    <testsuite name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.552">
+      <testsuite name="[2 Filmes: Sem Desconto]" time="0.549">
+        <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.549"/>
+      </testsuite>
+      <testsuite name="[3 Filmes: 25%]" time="0.001">
+        <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="[4 Filmes: 50%]" time="0.0">
+        <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+      </testsuite>
+      <testsuite name="[5 Filmes: 75%]" time="0.001">
+        <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="[6 Filmes: 100%]" time="0.001">
+        <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="[7 Filmes: Sem Desconto]" time="0.0">
+        <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.0"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.076">
+      <testcase name="naoDeveAlugarFilmeSemFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.047"/>
+      <testcase name="deveLancarExcecaoAoAlugarFilmeSemEstoque" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.002"/>
+      <testcase name="deveProrrogarUmaLocacao" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.012"/>
+      <testcase name="deveTratarErronoSPC" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.002"/>
+      <testcase name="deveEnviarEmailParaLocacoesAtrasadas" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.004"/>
+      <testcase name="naoDeveAlugarFilmeParaNegativadoSPC" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+      <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.003"/>
+      <testcase name="naoDeveAlugarFilmeSemUsuario" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+      <testcase name="deveCalcularValorLocacao" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+      <testcase name="deveAlugarFilme" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.001"/>
+    </testsuite>
+  </testsuite>
+</testrun>
